@@ -68,7 +68,7 @@ with tab2:
     col1, col2 = st.columns(2)
 
     with col1:
-        batting_team = st.text_input("Chasing Team", key = "si_batting_team")
+        batting_team = st.text_input("Chasing Team", key = "si_batting_team") #add bwoling and batting team from 1st innings
         bowling_team = st.text_input("Bowling Team", key = "si_bowling_team")
         venue = st.text_input("Venue ", key = "si_venue")
 
